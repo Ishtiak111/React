@@ -1,4 +1,4 @@
-.student{
+.student, .sport{
   border: 2px solid red;
   border-radius: 10px;
   margin: 5px;
