@@ -1,14 +1,23 @@
+import { Suspense } from "react";
 import "./App.css";
+import Users from "./Users";
+import Todos from "./Todos";
+
+const userDataPromise = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const data = await res.json();
+  return data;
+};
 
 function App() {
-  const handleClick = () => alert("Button Click 1");
-  const handleBuy = (id: number) => alert("Buying Item: " + id);
-
   return (
     <>
-      <button onClick={handleClick}>Click Me 1</button>
-      <button onClick={() => alert("Button Clicked 2")}>Click Me 2</button>
-      <button onClick={() => handleBuy(12)}>Buy Now</button>
+    <Todos></Todos>
+
+
+      <Suspense fallback={<p>Loading...</p>}>
+        <Users userDataPromise={userDataPromise()}></Users>
+      </Suspense>
     </>
   );
 }
