@@ -12,13 +12,17 @@ export default function Countries({ countryPromise }: CountriesProps) {
 
   const [visitedCountries, setVisitedCountries] = useState<CountryType[]>([]);
   const handleVisitedCountry = (country: CountryType): void => {
-    const exists = visitedCountries.find(c => c.ccn3.ccn3 === country.ccn3.ccn3)
-    if(exists){
-      const remainingCountries = visitedCountries.filter(c => c.ccn3.ccn3 !== country.ccn3.ccn3);
+    const exists = visitedCountries.find(
+      (c) => c.ccn3.ccn3 === country.ccn3.ccn3,
+    );
+    if (exists) {
+      const remainingCountries = visitedCountries.filter(
+        (c) => c.ccn3.ccn3 !== country.ccn3.ccn3,
+      );
       setVisitedCountries(remainingCountries);
-    }else{
-    const newVisitedCountries = [...visitedCountries, country];
-    setVisitedCountries(newVisitedCountries);
+    } else {
+      const newVisitedCountries = [...visitedCountries, country];
+      setVisitedCountries(newVisitedCountries);
     }
   };
 
@@ -28,6 +32,7 @@ export default function Countries({ countryPromise }: CountriesProps) {
       const remainingFlag = visitedFlags.filter((f) => f !== flag);
       setVisitedFlags(remainingFlag);
     } else {
+      console.log(flag);
       const newVisitedFlags = [...visitedFlags, flag];
       setVisitedFlags(newVisitedFlags);
     }
@@ -37,15 +42,15 @@ export default function Countries({ countryPromise }: CountriesProps) {
     <div>
       <h2>Country: {countries.length}</h2>
       <h2>Visited Countries: {visitedCountries.length}</h2>
-        <ul>
-          {
-            visitedCountries.map(country => <li>{country.name.common}</li>)
-          }
-        </ul>
+      <ul>
+        {visitedCountries.map((country) => (
+          <li key={country.ccn3.ccn3}>{country.name.common}</li>
+        ))}
+      </ul>
       <h2>Visited Flag: {visitedFlags.length}</h2>
       <div className="visited-flag">
-        {visitedFlags.map((flag) => (
-          <img src={flag}></img>
+        {visitedFlags.map((flag, index) => (
+          <img key={index} src={flag}></img>
         ))}
       </div>
       <div className="countries">
