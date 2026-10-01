@@ -1,7 +1,7 @@
-.student, .sport{
-  border: 2px solid red;
-  border-radius: 10px;
+.student{
+  border: 2px solid salmon;
   margin: 5px;
+  border-radius: 10px;
 }
 .counter {
   font-size: 16px;
