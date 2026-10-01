@@ -1,5 +1,10 @@
-.student{
+.student, .user{
   border: 2px solid salmon;
+  margin: 5px;
+  border-radius: 10px;
+}
+.student, .user2{
+  border: 2px solid rgb(39, 251, 64);
   margin: 5px;
   border-radius: 10px;
 }
