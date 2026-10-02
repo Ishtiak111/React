@@ -1,0 +1,10 @@
+.cart{
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 5px;
+}
+.postCart{
+    border: 2px solid rgb(32, 255, 184);
+    border-radius: 10px;
+    margin: 5px;
+}
