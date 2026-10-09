@@ -1,0 +1,92 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm Orthodox",
+    "battingStyle": "Left-handed",
+    "price": 800
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImg": "https://api.bdcrictime.com/players/37360.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://api.bdcrictime.com/players/1745.png",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-handed",
+    "price": 650
+  },
+  {
+    "playerName": "Taskin Ahmed",
+    "playerImg": "https://api.bdcrictime.com/players/360.png",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-handed",
+    "price": 600
+  },
+  {
+    "playerName": "Mehidy Hasan Miraz",
+    "playerImg": "https://api.bdcrictime.com/players/1018.png",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-handed",
+    "price": 750
+  },
+  {
+    "playerName": "Towhid Hridoy",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-handed",
+    "price": 500
+  },
+  {
+    "playerName": "Najmul Hossain Shanto",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Left-handed",
+    "price": 550
+  },
+  {
+    "playerName": "Rishad Hossain",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-handed",
+    "price": 450
+  },
+  {
+    "playerName": "Jaker Ali",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-handed",
+    "price": 400
+  },
+  {
+    "playerName": "Tanzid Hasan",
+    "playerImg": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Left-handed",
+    "price": 350
+  }
+]

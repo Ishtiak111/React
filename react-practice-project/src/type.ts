@@ -1,4 +1,4 @@
-export interface CountryType {
+export interface countryType {
   name: {
     common: string;
     official: string;
@@ -8,7 +8,8 @@ export interface CountryType {
   };
   flags:{
     flags:{
-        png:string;
+        png: string;
+        alt: string;
     }
   }
 }
